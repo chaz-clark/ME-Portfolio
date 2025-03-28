@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Your_Name - Data Science Portfolio"
+  title: "Your_Name - Mechanical Engineering Portfolio"
   favicon: Images/favicon.png
   back-to-top-navigation: true
   repo-url: https://github.com/username/username.github.io
@@ -23,154 +23,130 @@ website:
         file: index.qmd
       - text: "My Resume"
         file: resume.qmd
-      - text: "Data Cleansing"
-        file: cleansing.qmd
-      - text: "Data Exploration"
-        file: exploration.qmd
-      - text: "Story Telling"
-        file: story_telling.qmd
-      - text: "Machine Learning"
-        file: ml.qmd
-      - text: "Full Stack"
-        file: full_stack.qmd
-      - text: "Competition"
-        file: competition.qmd
+      - text: "Personal Projects"
+        file: projects.qmd
+      - text: "Capstone"
+        file: capstone.qmd
+      - text: "Mechatronics"
+        file: mechatronics.qmd
+      - text: "Coding Projects"
+        file: coding.qmd
+      - text: "Internship"
+        file: internship.qmd
   
   # learn more about navication here https://quarto.org/docs/websites/website-navigation.html
   # comment out any of the sections below to turn off the sidebar
 
   sidebar: 
-    - title: "Data Cleansing"
+    - title: "Personal Projects"
       style: "docked"
       background: light
       contents:
-        - text: "Data Cleansing"
-          file: cleansing.qmd
+        - text: "Personal Projects"
+          file: projects.qmd
         - text: "---"
         - text: "Project 1"
-          file: Cleansing_Projects/project1.qmd
+          file: Personal_Projects/project1.qmd
         - text: "---"
         - text: "Project 2"
-          file: Cleansing_Projects/project2.qmd
+          file: Personal_Projects/project2.qmd
         - text: "---"
         - text: "Project 3"
-          file: Cleansing_Projects/project3.qmd
+          file: Personal_Projects/project3.qmd
         - text: "---"
         - text: "Project 4"
-          file: Cleansing_Projects/project4.qmd
+          file: Personal_Projects/project4.qmd
         - text: "---"
         - text: "Project 5"
-          file: Cleansing_Projects/project5.qmd
+          file: Personal_Projects/project5.qmd
         - text: "---"
-    - title: "Data Exploration"
+    - title: "Capstone"
       style: "docked"
       background: light
       contents:
-        - text: "Data Exploration"
-          file: exploration.qmd
+        - text: "Capstone"
+          file: capstone.qmd
         - text: "---"
         - text: "Project 1"
-          file: Exploration_Projects/project1.qmd
+          file: Capstone_Project/project1.qmd
         - text: "---"
         - text: "Project 2"
-          file: Exploration_Projects/project2.qmd
+          file: Capstone_Project/project2.qmd
         - text: "---"
         - text: "Project 3"
-          file: Exploration_Projects/project3.qmd
+          file: Capstone_Project/project3.qmd
         - text: "---"
         - text: "Project 4"
-          file: Exploration_Projects/project4.qmd
+          file: Capstone_Project/project4.qmd
         - text: "---"
         - text: "Project 5"
-          file: Exploration_Projects/project5.qmd
+          file: Capstone_Project/project5.qmd
         - text: "---"
-    - title: "Story Telling"
+    - title: "Mechatronics"
       style: "docked"
       background: light
       contents:
-        - text: "Story Telling"
-          file: story_telling.qmd
+        - text: "Mechatronics"
+          file: mechatronics.qmd
         - text: "---"
         - text: "Project 1"
-          file: Story_Telling/project1.qmd
+          file: Mechatronics/project1.qmd
         - text: "---"
         - text: "Project 2"
-          file: Story_Telling/project2.qmd
+          file: Mechatronics/project2.qmd
         - text: "---"
         - text: "Project 3"
-          file: Story_Telling/project3.qmd
+          file: Mechatronics/project3.qmd
         - text: "---"
         - text: "Project 4"
-          file: Story_Telling/project4.qmd
+          file: Mechatronics/project4.qmd
         - text: "---"
         - text: "Project 5"
-          file: Story_Telling/project5.qmd
+          file: Mechatronics/project5.qmd
         - text: "---"
-    - title: "Machine Learning"
+    - title: "Coding Projects"
       style: "docked"
       background: light
       contents:
-        - text: "Machine Learning"
-          file: ml.qmd
+        - text: "Coding Projects"
+          file: coding.qmd
         - text: "---"
         - text: "Project 1"
-          file: Machine_Learning/project1.qmd
+          file: Coding_Projects/project1.qmd
         - text: "---"
         - text: "Project 2"
-          file: Machine_Learning/project2.qmd
+          file: Coding_Projects/project2.qmd
         - text: "---"
         - text: "Project 3"
-          file: Machine_Learning/project3.qmd
+          file: Coding_Projects/project3.qmd
         - text: "---"
         - text: "Project 4"
-          file: Machine_Learning/project4.qmd
+          file: Coding_Projects/project4.qmd
         - text: "---"
         - text: "Project 5"
-          file: Machine_Learning/project5.qmd
+          file: Coding_Projects/project5.qmd
         - text: "---"
-    - title: "Full Stack"
+    - title: "Internship"
       style: "docked"
       background: light
       contents:
-        - text: "Full Stack"
-          file: full_stack.qmd
+        - text: "Internahip"
+          file: internship.qmd
         - text: "---"
         - text: "Project 1"
-          file: Full_Stack/project1.qmd
+          file: Internship/project1.qmd
         - text: "---"
         - text: "Project 2"
-          file: Full_Stack/project2.qmd
+          file: Internship/project2.qmd
         - text: "---"
         - text: "Project 3"
-          file: Full_Stack/project3.qmd
+          file: Internship/project3.qmd
         - text: "---"
         - text: "Project 4"
-          file: Full_Stack/project4.qmd
+          file: Internship/project4.qmd
         - text: "---"
         - text: "Project 5"
-          file: Full_Stack/project5.qmd
-        - text: "---"
-    - title: "Competition"
-      style: "docked"
-      background: light
-      contents:
-        - text: "Competition"
-          file: competition.qmd
-        - text: "---"
-        - text: "Project 1"
-          file: Competition/project1.qmd
-        - text: "---"
-        - text: "Project 2"
-          file: Competition/project2.qmd
-        - text: "---"
-        - text: "Project 3"
-          file: Competition/project3.qmd
-        - text: "---"
-        - text: "Project 4"
-          file: Competition/project4.qmd
-        - text: "---"
-        - text: "Project 5"
-          file: Competition/project5.qmd
+          file: Internship/project5.qmd
         - text: "---"
   
 format:  
